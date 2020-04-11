@@ -1,5 +1,4 @@
 #! python3
-
 '''
 @author: Max Felius
 @email: maxfelius@hotmail.com
@@ -15,16 +14,13 @@ class splitpdf:
 	def __init__(self,dict_file):
 		#import a string with the bundled pdf
 		self.input_content = dict_file['input_file']
-		#import list with all the specification for the output format
+		
+                #import list with all the specification for the output format
 		self.output_content = dict_file['output_files']
-
+                
+                #Load the pdf that has to be splitted and create a pdf object from it
 		pdfFileobj = open(self.input_content, 'rb')
 		self.pdfreader = PyPDF2.PdfFileReader(pdfFileobj)
-
-		self.write_pdf()
-
-	def __str__(self):
-		return 'PDF class, this is not yet finished'
 
 	def write_pdf(self):
 		#Goes through the list filled with dicts
@@ -53,4 +49,4 @@ class splitpdf:
 			pdfOutputfile.close()
 
 if __name__ == '__main__':
-	obj = splitpdf(input.content)
+    splitpdf(input.content).write_pdf()

@@ -1,5 +1,4 @@
 #! python3
-
 '''
 @author: Max Felius
 @email: maxfelius@hotmail.com
