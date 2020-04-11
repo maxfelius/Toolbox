@@ -21,3 +21,5 @@ bin-release/
 .DS_Store
 *.pdf
 *.swp
+Pinger/ping_log.txt
+.gitignore

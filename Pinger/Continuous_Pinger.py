@@ -14,7 +14,6 @@ Purpose:
 import datetime, time
 import platform    # For getting the operating system name
 import subprocess  # For executing a shell command
-import os
 
 #Global Variables
 FILE_NAME = 'ping_log.txt'
@@ -62,5 +61,3 @@ class pinger:
 
 if __name__ == '__main__':
     pinger(FILE_NAME,WAIT_TIME).start()
-    # obj.start
-    
