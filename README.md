@@ -6,12 +6,13 @@ In this repo I want to make some tools to improve productivity
 Tools (finished):
 -Automated pdf file seperator/merger/rotator
 
+-Internet Connection Tester
+->Simple script which pings an address and logs the result
+
 Tools to be made:
 -Package to test function
 ->Testing will involve (runtime, memory use,...)
 
--Internet Connection Tester
-->Simple script which pings an address and logs the result
 
 -Clipboard storer
 ->Script that stores clipboard items
