@@ -4,7 +4,7 @@
 In this repo I want to make some tools to improve productivity
 
 Tools (finished):
-
+-Automated pdf file seperator/merger/rotator
 
 Tools to be made:
 -Package to test function
@@ -24,6 +24,6 @@ Tools to be made:
 ->Preference to open Stackoverflow
 ->Preference to immediately show the solution
 
--Automated pdf file seperator/merger/rotator
-
 -Create Shell Script to add python scripts to the environmental variables of the terminal
+
+-Automatic Latex Table Creator

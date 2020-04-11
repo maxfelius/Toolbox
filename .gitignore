@@ -20,3 +20,4 @@ bin-release/
 # Exclude the following files:
 .DS_Store
 *.pdf
+*.swp
