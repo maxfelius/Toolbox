@@ -8,7 +8,7 @@ See 'input.py' for more information
 
 #imports
 import PyPDF2
-import input
+import input_copy as input
 
 class splitpdf:
 	def __init__(self,dict_file):

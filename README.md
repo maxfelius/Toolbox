@@ -26,3 +26,7 @@ In this repo I want to make some tools to improve productivity
 3. Automatic Latex Table Creator
 
 4. Webscraper that looks at a particular website everyday for updates
+
+5. An automatic pipe that sends documents from terminal directly through email to other people
+
+6. Script that automatically deletes lines in a python script that are used for debugging and load profiling (cProfile)

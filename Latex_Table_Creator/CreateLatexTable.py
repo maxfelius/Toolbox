@@ -20,7 +20,10 @@ TODO Class
     -Add additional function to the latex script (centering, label, caption,
     first column with text)
 """
+
+# imports
 import numpy as np
+import pyperclip
 
 class CreateTable(object):
     '''This will be an object that creates a table and can print/write the table 
